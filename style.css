@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --clr-cyan: hsl(179, 62%, 43%);
+  --clr-bright-yellow: hsl(71, 73%, 54%);
+  --clr-light-gray: hsl(204, 43%, 93%);
+  --clr-grayish-blue: hsl(218, 22%, 67%);
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  /*
+    TODO: Why we need to set font size as 100%?
+  */
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  /*
+  TODO: Why do we need to inherit the box sizing?
+  */
+}
+body {
+  font-family: "Karla", sans-serif;
+  line-height: 1.3;
+}
