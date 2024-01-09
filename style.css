@@ -71,3 +71,36 @@ article {
   line-height: 1.625;
   font-size: 0.875rem /* 14px -> .875rem */;
 }
+
+.subscription {
+  padding: 1.5rem /* 24px -> 1.5rem */;
+  background-color: var(--clr-cyan);
+  color: var(--clr-white);
+}
+
+.subscription__heading {
+  font-size: 1.125rem /* 18px -> 1.125rem */;
+}
+.subscription__price {
+  display: flex;
+  align-items: center;
+  gap: .6875rem /* 11px -> .6875rem */;
+  font-size: 2rem /* 32px -> 2rem */;
+  font-weight: 700;
+}
+.subscription__price span {
+  font-size: 1rem /* 16px -> 1rem */;
+  opacity: .5;
+}
+.subscription__info {
+  margin-bottom: 1.625rem /* 26px -> 1.625rem */;
+}
+.subscription__btn {
+  display: inline-block;
+  background-color: var(--clr-bright-yellow);
+  color: var(--clr-white);
+  padding: .875rem 6.375rem;
+  font-weight: 700;
+  border-radius: .3125rem /* 5px -> .3125rem */;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+}
