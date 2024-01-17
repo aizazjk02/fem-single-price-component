@@ -40,8 +40,12 @@ p {
   margin-top: 0;
 }
 
+ul {
+  list-style: none;
+}
 /* custom styles */
 article {
+  min-width: 19.4375rem /* 311px -> 19.4375rem */;
   border-radius: 0.3125rem;
   overflow: hidden; /*border radius won't be available if the overflow is not hidden*/
   @media only screen and (min-width: 90em) {
@@ -101,6 +105,21 @@ article {
   color: var(--clr-white);
   padding: .875rem 6.375rem;
   font-weight: 700;
+  letter-spacing: -0.2px;
   border-radius: .3125rem /* 5px -> .3125rem */;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.why {
+  padding: 1.5rem /* 24px -> 1.5rem */;
+  background-color: var(--clr-cyan-light);
+  color: var(--clr-white);
+}
+.why__heading {
+  font-size: 1rem /* 16px -> 1rem */;
+}
+.why__features {
+  padding: 0;
+  opacity: .75;
+  font-size: .875rem /* 14px -> .875rem */;
 }
